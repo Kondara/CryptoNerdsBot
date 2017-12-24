@@ -112,6 +112,25 @@ namespace Telegram_Bot.Classes
             supportedCurrencies.Add(new CryptoCurrency("BCC", "bitcoin-cash", "CoinMarket")); // Referring to BitCoin Cash for now.
             supportedCurrencies.Add(new CryptoCurrency("LBRY", "library-credit", "CoinMarket"));
             supportedCurrencies.Add(new CryptoCurrency("LBC", "library-credit", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("SIA", "siacoin", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("SC", "siacoin", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("LUMEN", "stellar", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("STELLAR", "stellar", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("XLM", "stellar", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("XRP", "ripple", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("RIPPLE", "ripple", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("IOTA", "iota", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("MIOTA", "iota", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("DASH", "dash", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("BTG", "bitcoin-gold", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("MONERO", "monero", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("XMR", "monero", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("OMG", "omisego", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("STEEM", "steem", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("DECRED", "decred", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("DCR", "decred", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("GOLEM", "golem-network-tokens", "CoinMarket"));
+            supportedCurrencies.Add(new CryptoCurrency("GNT", "golem-network-tokens", "CoinMarket"));
         }
     }
 }
